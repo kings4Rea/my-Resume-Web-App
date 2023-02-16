@@ -1,0 +1,27 @@
+<%-include("partials/header"); -%>
+<h1>Compose</h1>
+ <form action="/compose" method="post">
+ <div class="publish"class="form-group">
+  <label>Title</label>
+  <input class="form-control" type="text" name="postTitle">
+  <label>post</label>
+ <textarea class="form-control"  name="postBody" cols="40" rows="5"></textarea>
+ </div>
+ <div class="btn2">
+   <button class="btn btn-primary" type="submit" name="button">publish</button>
+ </div>
+</form>
+<script>
+ var languageList = ["Node.js", "Python", "C++", "C#", "Java", "PHP", "Swift", "R", "Javascript", "Go"];
+ var languageName = prompt("Please Select one of the best language you could advise one to learn");
+ if(languageList.includes(languageName)&& (languageName === "Node.js")){
+   alert("Wow! that's good news, this website has the foundation of Node.js ");
+
+ }else{
+   alert("Alright, Welcome sir.😀 Pls continue ");
+  }
+</script>
+
+
+
+<%-include("partials/footer");-%>
