@@ -352,6 +352,8 @@ margin-left: 500px;
 
 .pub{
   padding-left: 100px;
+  font-style: italic;
+  color: blue;
 }
 
 .btn2{
@@ -377,7 +379,7 @@ margin-left: 500px;
    margin-left: 50px;
  }
  .compo{
-   padding-left: 1000px;
+   padding-left: 900px;
    font-size: 1.5rem;
  }
  .comporoma{
