@@ -8,6 +8,9 @@
   },
   "author": "kingsley",
   "license": "ISC",
+  "engines": {
+    "node": "16.17.0"
+  },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "body-parser": "^1.20.1",
