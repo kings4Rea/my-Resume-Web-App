@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start":"node backend/app.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kingsley",
@@ -27,7 +28,6 @@
     "http-server": "^14.1.1",
     "inquirer": "^8.2.5",
     "jQuery": "^1.7.4",
-    "jsdom": "^21.1.0",
     "lodash": "^4.17.21",
     "mailchimp": "^1.2.1",
     "mongoose": "^6.8.4",
@@ -39,10 +39,6 @@
     "passport-linkedin-oauth2": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^7.1.2",
-    "pptxgenjs": "^3.11.0",
     "request": "^2.88.2",
-    "showdown": "^2.1.0",
-    "socket.io": "^4.5.4",
-    "websocket": "^1.0.34"
   }
 }
